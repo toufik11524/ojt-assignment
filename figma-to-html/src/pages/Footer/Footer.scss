@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.footer {
+  background-color: #eeedf2;
+  padding: 64px 160px 0px 160px;
+
+  &__top {
+    align-items: start;
+    display: grid;
+    grid-template-columns: auto auto auto 2fr;
+    // grid-template-rows: 1fr;
+    padding: 0px 0px 54px 0px;
+
+    &__image {
+      width: 130.64px;
+      height: 142px;
+    }
+
+    &__company {
+      margin-left: 72px;
+      &__title {
+        font-family: "Ubuntu";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 8px;
+        color: #001828;
+      }
+    }
+
+    &__program {
+      margin-left: 79px;
+      &__title {
+        font-family: "Ubuntu";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 8px;
+        color: #001828;
+      }
+    }
+
+    &__get {
+      margin-left: auto;
+      &__title {
+        font-family: "Ubuntu";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 18px;
+        color: #001828;
+      }
+    }
+
+    &__company > ul {
+      list-style-type: none;
+      padding: 0px;
+    }
+
+    &__company > ul > li {
+      color: rgba(0, 24, 40, 0.7);
+      font-size: 16px;
+      font-family: "DM Sans";
+
+      font-weight: 500;
+      line-height: 25.6px;
+      margin-top: 8px;
+    }
+
+    &__program > ul {
+      list-style-type: none;
+      padding: 0px;
+    }
+
+    &__program > ul > li {
+      color: rgba(0, 24, 40, 0.7);
+      font-size: 16px;
+      font-family: "DM Sans";
+
+      font-weight: 500;
+      line-height: 25.6px;
+      margin-top: 8px;
+    }
+
+    &__get > input {
+      width: 264px;
+      height: 48px;
+      font-size: 16px;
+      padding-left: 16px;
+      border: 1px solid #e1e1e1;
+      border-radius: 4px;
+      font-family: "DM Sans";
+
+      line-height: 25.6px;
+      font-weight: 400;
+      color: #a4a4a4;
+    }
+
+    &__get > button {
+      width: 107px;
+      height: 48px;
+      font-size: 16px;
+      background-color: #0961e7;
+      border-radius: 4px;
+      font-family: "DM Sans";
+
+      line-height: 25.6px;
+      font-weight: 700;
+      color: #ffffff;
+      border: none;
+    }
+  }
+
+  &__bottom {
+    height: 88px;
+    &__line {
+      width: 100%;
+      height: 2px;
+      border-radius: 4px;
+      background-color: rgba(0, 24, 40, 0.2);
+    }
+
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      &__left {
+        font-family: "DM Sans";
+
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19.2px;
+        color: rgba(0, 24, 40, 0.6);
+        margin-top: 31px;
+
+        &__image {
+          width: 10.5px;
+          height: 10.5px;
+        }
+      }
+
+      &__right {
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+        justify-content: end;
+        margin-top: 24px;
+        &__title {
+          margin-right: 15px;
+          font-family: "Ubuntu";
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 32px;
+          color: #001828;
+        }
+
+        &__image {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    background-color: #eeedf2;
+    padding: 64px 48px 0px 48px;
+
+    &__top {
+      align-items: start;
+      display: grid;
+      grid-template-columns: auto auto auto 2fr;
+      grid-template-rows: 1fr;
+      padding: 0px 0px 32px 0px;
+
+      &__image {
+        width: 130.64px;
+        height: 142px;
+      }
+
+      &__company {
+        margin-left: 72px;
+        &__title {
+          font-size: 16px;
+          line-height: 25.6px;
+          margin-bottom: 8px;
+        }
+      }
+
+      &__program {
+        margin-left: 100.36px;
+        &__title {
+          font-size: 16px;
+          line-height: 25.6px;
+          margin-bottom: 8px;
+        }
+      }
+
+      &__get {
+        margin-left: auto;
+        grid-column: 1/-1;
+        margin-top: 32px;
+        &__title {
+          font-size: 16px;
+          line-height: 25.6px;
+          margin-bottom: 14px;
+        }
+      }
+
+      &__company > ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      &__company > ul > li {
+        color: rgba(0, 24, 40, 0.7);
+        font-size: 16px;
+        font-family: "DM Sans";
+
+        font-weight: 500;
+        line-height: 25.6px;
+        margin-top: 8px;
+      }
+
+      &__program > ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      &__program > ul > li {
+        color: rgba(0, 24, 40, 0.7);
+        font-size: 16px;
+        font-family: "DM Sans";
+
+        font-weight: 500;
+        line-height: 25.6px;
+        margin-top: 8px;
+      }
+
+      &__get > input {
+        width: 264px;
+        height: 48px;
+        font-size: 16px;
+        padding-left: 16px;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        font-family: "DM Sans";
+
+        line-height: 25.6px;
+        font-weight: 400;
+        color: #a4a4a4;
+      }
+
+      &__get > button {
+        width: 107px;
+        height: 48px;
+        font-size: 16px;
+        background-color: #0961e7;
+        border-radius: 4px;
+        font-family: "DM Sans";
+
+        line-height: 25.6px;
+        font-weight: 700;
+        color: #ffffff;
+        border: none;
+      }
+    }
+
+    &__bottom {
+      height: 64px;
+      &__line {
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color: rgba(0, 24, 40, 0.2);
+      }
+
+      &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        &__left {
+          font-family: "DM Sans";
+
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 19.2px;
+          color: rgba(0, 24, 40, 0.6);
+          margin-top: 22px;
+
+          &__image {
+            width: 10.5px;
+            height: 10.5px;
+          }
+        }
+
+        &__right {
+          display: flex;
+          flex-direction: row;
+          column-gap: 8px;
+          justify-content: end;
+          margin-top: 16px;
+          &__title {
+            margin-right: 33px;
+            font-size: 16px;
+            line-height: 25.6px;
+          }
+
+          &__image {
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    background-color: #eeedf2;
+    padding: 64px 24px 64px 24px;
+
+    &__top {
+      align-items: start;
+      display: grid;
+      grid-template-columns: auto auto auto 2fr;
+      grid-template-rows: 1fr;
+      padding: 0px 0px 54px 0px;
+
+      &__image {
+        grid-column: 1/-1;
+        width: 110.3px;
+        height: 120px;
+        margin-bottom: 24px;
+      }
+
+      &__company {
+        margin-left: 0px;
+        &__title {
+          font-size: 16px;
+          line-height: 25.6px;
+          margin-bottom: 14px;
+          color: #001828;
+        }
+      }
+
+      &__program {
+        margin-left: 43px;
+        &__title {
+          font-family: "Ubuntu";
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 25.6px;
+          margin-bottom: 14px;
+        }
+      }
+
+      &__get {
+        margin-left: auto;
+        grid-column: 1/-1;
+        margin-top: 32px;
+
+        &__title {
+          font-family: "Ubuntu";
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 25.6px;
+          margin-bottom: 16px;
+        }
+      }
+
+      &__company > ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      &__company > ul > li {
+        color: rgba(0, 24, 40, 0.7);
+        font-size: 16px;
+        font-family: "DM Sans";
+
+        font-weight: 500;
+        line-height: 25.6px;
+        margin-top: 8px;
+      }
+
+      &__program > ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      &__program > ul > li {
+        color: rgba(0, 24, 40, 0.7);
+        font-size: 16px;
+        font-family: "DM Sans";
+
+        font-weight: 500;
+        line-height: 25.6px;
+        margin-top: 8px;
+      }
+
+      &__get > input {
+        width: 205px;
+        height: 48px;
+        font-size: 14px;
+        padding-left: 16px;
+        border: 1px solid #e1e1e1;
+        border-radius: 4px;
+        font-family: "DM Sans";
+
+        line-height: 22.4px;
+        font-weight: 400;
+        color: #a4a4a4;
+      }
+
+      &__get > button {
+        width: 107px;
+        height: 48px;
+        font-size: 14px;
+        background-color: #0961e7;
+        border-radius: 4px;
+        font-family: "DM Sans";
+        line-height: 22.4px;
+        font-weight: 700;
+        color: #ffffff;
+        border: none;
+      }
+    }
+
+    &__bottom {
+      height: 88px;
+      &__line {
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color: rgba(0, 24, 40, 0.2);
+      }
+
+      &__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        &__left {
+          font-family: "DM Sans";
+
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 19.2px;
+          color: rgba(0, 24, 40, 0.6);
+          margin-top: 32px;
+          order: 2;
+          &__image {
+            width: 10.5px;
+            height: 10.5px;
+          }
+        }
+
+        &__right {
+          display: flex;
+          flex-direction: row;
+          column-gap: 8px;
+          justify-content: start;
+          margin-top: 24px;
+          order: 1;
+          &__title {
+            margin-right: 10px;
+            font-size: 16px;
+            line-height: 25.6px;
+            margin-bottom: 0px;
+          }
+
+          &__image {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
