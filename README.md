@@ -6,4 +6,6 @@ Details:
 * SCSS
 * Media Query
 * Pixel Perfect
-* Flexbox
+* Flexbox/grid and meida query
+* BEM naming convention
+* responsive for mobile and tablet device
